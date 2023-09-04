@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.marely.validapassword.SecondFragment"
+        android:label="@string/fragment_second"
+        tools:layout="@layout/fragment_second" />
+    <fragment
+        android:id="@+id/firstFragment"
+        android:label="@string/fragment_first"
+        android:name="com.marely.validapassword.FirstFragment"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_first_Fragment_to_second_Fragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">ValidaPassword</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="textoBoton" translatable="false">Validar Contraseña</string>
+    <string name="ingrese_contrase_a">Ingrese contraseña</string>
+    <string name="texto1">La contraseña debe tener al menos 5 caracteres y una letra mayúscula.</string>
+    <string name="fragment_first">Validación Contraseña</string>
+    <string name="fragment_second" translatable="false">Resultado</string>
+    <string name="texto2">
+    Recuerda que para que la contraseña sea segura debe cumpir con estas características:\n
+    \t->  Al menos 5 caracteres.\n
+    \t->  Al menos una letra mayúscula.\n\n
+    Otras características que hacen la contraseña más segura:\n
+    \t->  Al menos un caracter especial (como % , $, #).\n
+    \t->  Al menos un número.
+    </string>
+</resources>
